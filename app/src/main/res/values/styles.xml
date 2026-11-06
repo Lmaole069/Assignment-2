@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //car name
+    <style name="CarTitleText">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    //section header (Booking, favorite)
+    <style name="SectionLabel">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    //Car detail line (Year, distance, cost)
+    <style name="InfoText">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>

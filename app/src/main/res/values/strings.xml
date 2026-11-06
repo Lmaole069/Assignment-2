@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Car Rental</string>
+
+   //Main Screen
+    <string name="balance_format">Balance: %1$d credits</string>
+    <string name="year_format">Year: %1$d</string>
+    <string name="km_format">Distance: %1$,d km</string>
+    <string name="cost_format">Cost: %1$d credits / day</string>
+    <string name="car_image_desc">Photo of the car</string>
+    <string name="no_cars">No cars available</string>
+    <string name="rent">Rent</string>
+    <string name="next">Next</string>
+
+    //Booking structure
+    <string name="my_bookings">My bookings</string>
+    <string name="no_bookings">No bookings yet</string>
+    <string name="cancel_last_booking">Cancel last booking</string>
+    <string name="booking_cancelled">Booking cancelled, credits refunded</string>
+    <string name="booked_msg">Booked %1$s %2$s for %3$d credits</string>
+    <string name="not_booked_msg">Booking cancelled - car not booked</string>
+
+    //Booking Screen
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="renter_name_hint">Your name: (required)</string>
+    <string name="days_slider_desc">Number of rental days</string>
+    <string name="days_format">Days: %1$d</string>
+    <string name="total_format">Total: %1$d credits</string>
+
+    //Error
+    <string name="error_name_required">Please enter your name</string>
+    <string name="error_over_limit">A single rental cannot exceed %1$d credits</string>
+    <string name="error_insufficient">Insufficient balance for this booking</string>
+
+    //Favorite
+    <string name="favourites_title">Favourites</string>
+    <string name="no_favourites">No favourites yet. Tap the heart or long-press the photo.</string>
+    <string name="favourite_button_desc">Mark as favourite</string>
+    <string name="favourite_added">%1$s added to favourites</string>
+    <string name="favourite_removed">%1$s removed from favourites</string>
+
+    //Search n Sort
+    <string name="search_hint">Search by name or model</string>
+    <string name="sort_desc">Sort cars</string>
+
+    <string-array name="sort_options">
+      <item>Sort: Default</item>
+      <item>Rating (high to low)</item>
+      <item>Year (newest to oldest)</item>
+      <item>Cost (low to high)</item>
+    </string-array>
+
+    //dark mode
+    <string name="dark_mode">Dark mode</string>
+</resources>
